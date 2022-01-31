@@ -21,9 +21,8 @@ public class ContattoEJB implements ContattoEJBLocal {
 	@PersistenceContext(unitName = "rubricaPS")
 	private EntityManager em;
 	
-    public ContattoEJB() {
-        // TODO Auto-generated constructor stub
-    }
+	//Costruttore
+    public ContattoEJB() {}
     
     //Metodi
     //ritorna tutti i contatti con rispettivi numeri di telefono che ci sono in rubrica
